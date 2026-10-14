@@ -3,26 +3,73 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Go Mobile Inc. is an independent software company creating mobile applications and digital products." />
+  <meta name="description" content="Go Mobile is an independent software product studio developing practical mobile applications. Discover our first product in development: Meal Planner." />
   <meta name="theme-color" content="#10131c" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Go Mobile Inc. — Independent App Studio" />
-  <meta property="og:description" content="Independent ideas. Thoughtful digital products." />
+  <meta property="og:title" content="Go Mobile — Independent App Studio" />
+  <meta property="og:description" content="Small ideas. Real impact. Mobile apps built to simplify everyday life." />
   <meta property="og:url" content="https://gomobilehq.com/" />
   <link rel="canonical" href="https://gomobilehq.com/" />
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-  <title>Go Mobile Inc. — Independent App Studio</title>
+  <title>Go Mobile — Independent App Studio</title>
   <style>
-    :root{color-scheme:dark;--bg:#10131c;--panel:#1b2030;--text:#f4f5f8;--muted:#a6adbd;--line:#34394a;--accent:#c7c2ff}
-    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;-webkit-font-smoothing:antialiased}
+    :root{color-scheme:dark;--bg:#10131c;--panel:#1b2030;--text:#f4f5f8;--muted:#aeb4c4;--line:#34394a;--accent:#c7c2ff}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:24px}
+    body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;-webkit-font-smoothing:antialiased}
     a{color:inherit;text-decoration:none}a:focus-visible{outline:2px solid var(--accent);outline-offset:5px;border-radius:3px}
-    .page{position:relative;overflow:hidden;min-height:100vh}.glow{pointer-events:none;position:absolute;top:-390px;right:-420px;width:1100px;height:1100px;background:radial-gradient(circle,rgba(102,90,195,.25),rgba(48,60,113,.09) 39%,transparent 67%)}
-    .wrap{position:relative;width:min(1120px,calc(100% - 64px));margin:0 auto}.nav{display:flex;align-items:center;justify-content:space-between;padding:33px 0;border-bottom:1px solid rgba(255,255,255,.1)}.brand{display:flex;align-items:center;gap:11px;font-size:18px;font-weight:700;letter-spacing:-.6px}.mark{height:30px;width:30px;display:grid;place-items:center;border-radius:9px;background:#dad6ff;color:#19182a;font-size:16px;font-weight:900}.navlinks{display:flex;gap:35px;font-size:14px;color:#c4c8d3}.navlinks a:hover,.footer a:hover{color:white}
-    .hero{padding:133px 0 127px;max-width:850px}.eyebrow{display:flex;align-items:center;gap:11px;font-size:12px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:var(--accent)}.dot{width:7px;height:7px;border-radius:50%;background:#b4a9ff;box-shadow:0 0 14px rgba(174,159,255,.7)}h1{font-size:clamp(53px,8vw,108px);line-height:1.01;font-weight:650;letter-spacing:-6px;margin:29px 0 25px}h1 span{color:#aaa3eb}.lede{max-width:610px;color:#b9bfce;font-size:clamp(17px,2vw,21px);line-height:1.7;margin:0}.actions{display:flex;align-items:center;gap:23px;margin-top:39px}.btn{background:#ddd9ff;color:#17162b;border-radius:10px;padding:15px 21px;font-weight:700;font-size:14px;display:inline-flex;align-items:center;gap:17px;transition:transform .2s,background .2s}.btn:hover{background:white;transform:translateY(-2px)}.quiet{color:#d2d5e0;font-size:14px}.quiet:hover{text-decoration:underline}
-    .section{padding:46px 0 103px;border-top:1px solid rgba(255,255,255,.1)}.section-head{display:flex;justify-content:space-between;align-items:start;gap:30px;margin-bottom:32px}.kicker{color:#a8a4cf;font-size:12px;letter-spacing:2px;text-transform:uppercase;font-weight:700;margin:0 0 17px}.section h2{font-size:clamp(31px,4vw,47px);font-weight:600;letter-spacing:-1.5px;line-height:1.17;margin:0;max-width:570px}.section-copy{color:var(--muted);font-size:15px;line-height:1.85;max-width:375px;margin:30px 0 0}.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.tile{background:linear-gradient(160deg,#22273a,#1a1f2d);border:1px solid #303647;border-radius:15px;padding:30px 27px 35px;min-height:215px}.tile-icon{font-size:25px;color:#d0cafa;font-weight:400;line-height:1}.tile h3{font-size:18px;margin:33px 0 10px;font-weight:600;letter-spacing:-.3px}.tile p{color:var(--muted);font-size:14px;line-height:1.65;margin:0}
-    .about{display:grid;grid-template-columns:1fr 1fr;gap:80px}.about p{font-size:16px;line-height:1.9;color:#b9bfce;margin:0}.contact{border:1px solid #41415f;border-radius:18px;padding:39px 42px;background:linear-gradient(115deg,rgba(81,76,131,.28),rgba(30,34,50,.55))}.contact h2{margin:0 0 13px}.contact p{color:var(--muted);margin:0 0 28px;line-height:1.7}.email{display:inline-block;color:#e1ddff;font-size:clamp(18px,3vw,25px);font-weight:600;letter-spacing:-.6px;overflow-wrap:anywhere}.email:hover{text-decoration:underline}.footer{display:flex;justify-content:space-between;gap:20px;padding:28px 0 35px;color:#8f96a8;font-size:12px;border-top:1px solid rgba(255,255,255,.1)}
-    @media(max-width:750px){.wrap{width:min(100% - 36px,1120px)}.nav{padding:23px 0}.navlinks{gap:18px;font-size:12px}.hero{padding:105px 0 95px}h1{letter-spacing:-3px}.actions{flex-wrap:wrap}.section{padding:39px 0 76px}.section-head{display:block}.section-copy{margin-top:23px}.tiles,.about{grid-template-columns:1fr;gap:13px}.tile{min-height:0;padding:25px}.tile h3{margin-top:21px}.about{gap:25px}.contact{padding:28px 24px}.footer{flex-direction:column;gap:8px}}
-    @media(max-width:400px){.brand{font-size:14px;white-space:nowrap;gap:7px}.brand .mark{width:26px;height:26px;flex-shrink:0}.navlinks{gap:10px;font-size:11px}}
+    .page{position:relative;overflow:hidden;min-height:100vh}
+    .glow{pointer-events:none;position:absolute;top:-390px;right:-420px;width:1100px;height:1100px;background:radial-gradient(circle,rgba(102,90,195,.25),rgba(48,60,113,.09) 39%,transparent 67%)}
+    .wrap{position:relative;width:min(1120px,calc(100% - 64px));margin:0 auto}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:30px;padding:33px 0;border-bottom:1px solid rgba(255,255,255,.1)}
+    .brand{display:flex;align-items:center;gap:11px;font-size:18px;font-weight:700;letter-spacing:-.6px;white-space:nowrap}
+    .mark{height:32px;width:32px;flex-shrink:0;display:grid;place-items:center;border-radius:10px;background:linear-gradient(135deg,#e4dfff,#aaa2f3);color:#19182a;font-size:17px;font-weight:900;box-shadow:0 3px 15px rgba(155,145,240,.17)}
+    .navlinks{display:flex;align-items:center;flex-wrap:wrap;column-gap:29px;row-gap:10px;font-size:14px;color:#c4c8d3}
+    .navlinks a:hover,.footer a:hover{color:#fff}
+    .hero{padding:128px 0 128px;max-width:880px}
+    .eyebrow{display:flex;align-items:center;gap:11px;font-size:12px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:var(--accent)}
+    .dot{width:7px;height:7px;border-radius:50%;background:#b4a9ff;box-shadow:0 0 14px rgba(174,159,255,.7)}
+    h1{font-size:clamp(57px,8.2vw,108px);line-height:1.025;font-weight:650;letter-spacing:-5.5px;margin:29px 0 28px}
+    h1 span{color:#aaa3eb}
+    .lede{max-width:650px;color:#b9bfce;font-size:clamp(17px,2vw,21px);line-height:1.75;margin:0}
+    .actions{display:flex;align-items:center;flex-wrap:wrap;gap:23px;margin-top:39px}
+    .btn{background:#ddd9ff;color:#17162b;border-radius:10px;padding:15px 21px;font-weight:700;font-size:14px;display:inline-flex;align-items:center;gap:17px;transition:transform .2s,background .2s}
+    .btn:hover{background:#fff;transform:translateY(-2px)}.quiet{color:#d2d5e0;font-size:14px}.quiet:hover{text-decoration:underline}
+    .section{padding:56px 0 103px;border-top:1px solid rgba(255,255,255,.1)}
+    .section-head{display:flex;justify-content:space-between;align-items:start;gap:35px;margin-bottom:36px}
+    .kicker{color:#b4aaf5;font-size:12px;letter-spacing:2px;text-transform:uppercase;font-weight:700;margin:0 0 17px}
+    .section h2{font-size:clamp(32px,4vw,49px);font-weight:600;letter-spacing:-1.6px;line-height:1.17;margin:0;max-width:620px}
+    .section-copy{color:var(--muted);font-size:15px;line-height:1.85;max-width:390px;margin:30px 0 0}
+    .tiles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+    .tile{background:linear-gradient(160deg,#22273a,#1a1f2d);border:1px solid #303647;border-radius:15px;padding:29px 26px 32px;min-height:220px}
+    .tile-icon{font-size:26px;color:#d0cafa;font-weight:400;line-height:1}
+    .tile h3{font-size:18px;margin:31px 0 11px;font-weight:600;letter-spacing:-.3px}
+    .tile p,.body-copy{color:var(--muted);font-size:15px;line-height:1.8;margin:0}
+    .product{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.9fr);gap:58px;align-items:center}
+    .product-desc{max-width:560px}.product-desc p{color:#b9bfce;font-size:16px;line-height:1.85;margin:19px 0 0}
+    .status{display:inline-flex;align-items:center;gap:9px;margin:24px 0 0;border:1px solid #514c76;border-radius:100px;padding:8px 12px;color:#ded9ff;font-size:12px;letter-spacing:.25px}
+    .status:before{content:"";display:block;width:7px;height:7px;background:#b8adff;border-radius:50%}
+    .product-card{border:1px solid #44425c;border-radius:20px;background:linear-gradient(155deg,rgba(100,88,168,.22),rgba(32,36,55,.89) 60%);padding:28px 29px 30px;box-shadow:0 18px 80px rgba(0,0,0,.12)}
+    .card-top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:26px}
+    .app-symbol{display:grid;place-items:center;width:46px;height:46px;border-radius:13px;background:#ddd9ff;color:#242039;font-size:25px;font-weight:700}
+    .card-tag{color:#c8c2ed;font-size:12px;font-weight:600;letter-spacing:.6px;text-transform:uppercase}
+    .product-card h3{font-size:22px;letter-spacing:-.5px;margin:0 0 8px}
+    .product-card .hint{font-size:13px;line-height:1.6;color:#b8bfd0;margin:0 0 22px}
+    .feature-list{margin:0;padding:0;list-style:none;display:grid;gap:0}
+    .feature-list li{display:flex;align-items:flex-start;gap:12px;padding:11px 0;border-top:1px solid rgba(255,255,255,.10);color:#e1e2ed;font-size:14px;line-height:1.55}
+    .check{flex:none;display:inline-grid;place-items:center;color:#d2c8ff;background:rgba(197,182,255,.12);border-radius:6px;width:22px;height:22px;font-size:13px}
+    .disclaimer{color:#a0a6b7;font-size:12px;line-height:1.6;margin:20px 0 0}
+    .about{display:grid;grid-template-columns:.8fr 1.2fr;gap:90px;align-items:start}
+    .about-body p{font-size:16px;line-height:1.9;color:#b9bfce;margin:0 0 18px}.about-body p:last-child{margin-bottom:0}
+    .philosophy{padding:35px 42px;border:1px solid #3b3e55;border-radius:17px;background:linear-gradient(120deg,rgba(75,70,130,.24),rgba(24,29,42,.55));display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:65px}
+    .philosophy p{color:#b9bfce;font-size:16px;line-height:1.85;margin:0}
+    .contact{border:1px solid #41415f;border-radius:18px;padding:40px 42px;background:linear-gradient(115deg,rgba(81,76,131,.28),rgba(30,34,50,.55))}
+    .contact h2{margin:0 0 13px}.contact p{color:var(--muted);margin:0 0 28px;line-height:1.7}
+    .email{display:inline-block;color:#e1ddff;font-size:clamp(18px,3vw,25px);font-weight:600;letter-spacing:-.6px;overflow-wrap:anywhere}.email:hover{text-decoration:underline}
+    .footer{display:flex;justify-content:space-between;gap:20px;padding:28px 0 35px;color:#979daf;font-size:12px;border-top:1px solid rgba(255,255,255,.1);line-height:1.6}
+    @media(max-width:850px){.product{grid-template-columns:1fr;gap:32px}.product-card{max-width:630px}.about{gap:35px}.philosophy{grid-template-columns:1fr;gap:22px}}
+    @media(max-width:750px){.wrap{width:min(100% - 36px,1120px)}.nav{padding:23px 0;align-items:flex-start;flex-wrap:wrap;gap:17px}.navlinks{gap:12px 22px;font-size:13px}.hero{padding:101px 0 95px}h1{letter-spacing:-3px}.section{padding:42px 0 77px}.section-head{display:block}.section-copy{margin-top:23px}.tiles,.about{grid-template-columns:1fr;gap:13px}.tile{min-height:0;padding:25px}.tile h3{margin-top:21px}.about{gap:22px}.product-card{padding:26px 22px}.philosophy{padding:29px 24px}.contact{padding:29px 24px}.footer{flex-direction:column;gap:6px}}
+    @media(max-width:390px){.brand{font-size:16px}.navlinks{gap:10px 15px;font-size:12px}h1{font-size:clamp(46px,13vw,57px);letter-spacing:-2.5px}.hero{padding:88px 0 78px}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
   </style>
 </head>
@@ -31,28 +78,63 @@
     <div class="glow" aria-hidden="true"></div>
     <div class="wrap">
       <header class="nav">
-        <a class="brand" href="#home" aria-label="Go Mobile Inc. home"><span class="mark" aria-hidden="true">G</span><span>Go Mobile<span style="color:#949bad"> Inc.</span></span></a>
-        <nav class="navlinks" aria-label="Main navigation"><a href="#what-we-do">What we do</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+        <a class="brand" href="#home" aria-label="Go Mobile home"><span class="mark" aria-hidden="true">G</span><span>Go Mobile</span></a>
+        <nav class="navlinks" aria-label="Main navigation"><a href="#what-we-do">What we do</a><a href="#our-product">Our product</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
       </header>
       <main id="home">
         <section class="hero" aria-labelledby="hero-title">
-          <div class="eyebrow"><span class="dot" aria-hidden="true"></span> INDEPENDENT SOFTWARE COMPANY</div>
-          <h1 id="hero-title">Ideas into<br><span>experiences.</span></h1>
-          <p class="lede">We create mobile applications and digital products with a focus on thoughtful design, intuitive experiences, and everyday usefulness.</p>
-          <div class="actions"><a class="btn" href="mailto:arif@gomobilehq.com">Get in touch <span aria-hidden="true">↗</span></a><a class="quiet" href="#what-we-do">Discover what we do ↓</a></div>
+          <div class="eyebrow"><span class="dot" aria-hidden="true"></span> INDEPENDENT APP STUDIO</div>
+          <h1 id="hero-title">Small ideas.<br><span>Real impact.</span></h1>
+          <p class="lede">We create thoughtful mobile applications designed to make everyday life simpler, more organized, and a little easier. Our focus is on building digital products that solve real problems.</p>
+          <div class="actions"><a class="btn" href="#our-product">Meet our first product <span aria-hidden="true">↗</span></a><a class="quiet" href="#about">About Go Mobile ↓</a></div>
         </section>
         <section class="section" id="what-we-do" aria-labelledby="work-title">
-          <div class="section-head"><div><p class="kicker">WHAT WE DO</p><h2>Small details.<br>Better products.</h2></div><p class="section-copy">Our approach brings product thinking, user experience, and technology together to build useful digital experiences.</p></div>
+          <div class="section-head"><div><p class="kicker">WHAT WE DO</p><h2>From everyday problems<br>to useful products.</h2></div><p class="section-copy">Go Mobile is a product studio. We develop and grow our own applications rather than building software on commission for clients.</p></div>
           <div class="tiles">
-            <article class="tile"><div class="tile-icon" aria-hidden="true">◇</div><h3>Mobile applications</h3><p>Building experiences designed for the devices people use every day.</p></article>
-            <article class="tile"><div class="tile-icon" aria-hidden="true">◌</div><h3>Product design</h3><p>Keeping interfaces clear, approachable, and focused on real needs.</p></article>
-            <article class="tile"><div class="tile-icon" aria-hidden="true">↗</div><h3>Independent products</h3><p>Exploring ideas and developing digital products across different categories.</p></article>
+            <article class="tile"><div class="tile-icon" aria-hidden="true">◇</div><h3>Product discovery</h3><p>We explore everyday challenges, identify opportunities, and turn promising ideas into practical product concepts.</p></article>
+            <article class="tile"><div class="tile-icon" aria-hidden="true">◌</div><h3>Design &amp; development</h3><p>We focus on clear interfaces, useful features, and mobile experiences that feel straightforward to use.</p></article>
+            <article class="tile"><div class="tile-icon" aria-hidden="true">↗</div><h3>Publishing &amp; growth</h3><p>We prepare products for release, bring them to market, learn from users, and keep improving what matters.</p></article>
           </div>
         </section>
-        <section class="section about" id="about" aria-labelledby="about-title"><div><p class="kicker">ABOUT US</p><h2>Independent by design.</h2></div><p>Go Mobile Inc. is a Delaware-incorporated software company focused on mobile apps and digital products. We believe the most useful products make complex things feel simple.</p></section>
-        <section class="section" id="contact" aria-labelledby="contact-title"><div class="contact"><p class="kicker">CONTACT</p><h2 id="contact-title">Let's connect.</h2><p>For business inquiries and general questions, reach us at:</p><a class="email" href="mailto:arif@gomobilehq.com">arif@gomobilehq.com ↗</a></div></section>
+        <section class="section" id="our-product" aria-labelledby="product-title">
+          <div class="product">
+            <div class="product-desc"><p class="kicker">OUR FIRST PRODUCT</p><h2 id="product-title">Meal planning,<br>without the daily guesswork.</h2>
+              <div class="status">Meal Planner · In development</div>
+              <p>Deciding what to cook every day can take more time and energy than it should. Meal planning also means juggling food preferences, ingredients, shopping lists, and the weekly budget.</p>
+              <p>We're developing <strong>Meal Planner</strong> to help busy individuals and households organize their weekly dinners around their tastes and needs, with a clearer idea of what to buy and how much it may cost.</p>
+            </div>
+            <div class="product-card" aria-label="Planned Meal Planner features">
+              <div class="card-top"><span class="app-symbol" aria-hidden="true">✳</span><span class="card-tag">Planned features</span></div>
+              <h3>Less planning. More living.</h3>
+              <p class="hint">A simpler way to organize dinners for the week.</p>
+              <ul class="feature-list">
+                <li><span class="check" aria-hidden="true">✓</span><span>Personalized weekly dinner plans</span></li>
+                <li><span class="check" aria-hidden="true">✓</span><span>Recipes and ingredient information</span></li>
+                <li><span class="check" aria-hidden="true">✓</span><span>One consolidated grocery shopping list</span></li>
+                <li><span class="check" aria-hidden="true">✓</span><span>Estimated grocery costs</span></li>
+                <li><span class="check" aria-hidden="true">✓</span><span>Flexibility to adjust meals and plans</span></li>
+              </ul>
+              <p class="disclaimer">Meal Planner has not yet launched. These are planned features and may change during development.</p>
+            </div>
+          </div>
+        </section>
+        <section class="section about" id="about" aria-labelledby="about-title">
+          <div><p class="kicker">ABOUT US</p><h2 id="about-title">Independent by design.</h2></div>
+          <div class="about-body"><p><strong>Go Mobile</strong> is an independent software product studio operated by <strong>Go Mobile Inc.</strong>, a corporation registered in Delaware, United States.</p>
+            <p>We take products from an initial idea through design, development, publishing, and ongoing improvement. Each application may serve a different audience or category, but our objective stays the same: make software genuinely useful.</p>
+            <p>We're at the beginning of that journey. Meal Planner is our first product in development, and we plan to explore other practical app ideas over time.</p>
+          </div>
+        </section>
+        <section class="section" aria-labelledby="philosophy-title">
+          <div class="philosophy"><div><p class="kicker">OUR PHILOSOPHY</p><h2 id="philosophy-title">Technology should make life easier.</h2></div>
+            <p>Useful software doesn't have to be complicated. Sometimes an application that saves a few minutes a day or removes one repetitive decision can make a meaningful difference. We want to build products that are practical, approachable, and designed around real human needs.</p>
+          </div>
+        </section>
+        <section class="section" id="contact" aria-labelledby="contact-title">
+          <div class="contact"><p class="kicker">CONTACT</p><h2 id="contact-title">Let's connect.</h2><p>Questions about Go Mobile or our upcoming products? You can reach us at:</p><a class="email" href="mailto:arif@gomobilehq.com">arif@gomobilehq.com ↗</a></div>
+        </section>
       </main>
-      <footer class="footer"><span>© <span id="year">2026</span> Go Mobile Inc. All rights reserved.</span><span>Delaware, United States · <a href="mailto:arif@gomobilehq.com">Contact</a></span></footer>
+      <footer class="footer"><span>© <span id="year">2026</span> Go Mobile Inc. All rights reserved.</span><span>Registered in Delaware, United States · <a href="mailto:arif@gomobilehq.com">Contact</a></span></footer>
     </div>
   </div>
   <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
